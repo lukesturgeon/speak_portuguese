@@ -71,6 +71,26 @@
     {
       "pt":"O produto precisa de ser muito novo e ambicioso.",
       "en":"The product needs to be very new and ambitious"
+    },
+    {
+      "pt":"Estou com febre depois de uma semana a beber",
+      "en":"I am with fever after a week of drinking"
+    },
+    {
+      "pt":"Tenho muita tosse, porque tenho allergias",
+      "en":"I have a cough, because I have allergies"
+    },
+    {
+      "pt":"Estive com uma constipação, na semana passada.",
+      "en":"I was with a cold, in the past week"
+    },
+    {
+      "pt":"Dói-me os olhos depois de olhar para o ecrã",
+      "en":"My head hurts because of watching the screen"
+    },
+    {
+      "pt":"Sentes-te bem?",
+      "en":"Do you feel well?"
     }
   ]
 }
