@@ -31,6 +31,46 @@
     {
       "pt":"Como vai ser a tua semana?",
       "en":"How is your week going to be?"
+    },
+    {
+      "pt":"Conseguiste organizar tudo a tempo?",
+      "en":"Could you organise everything in time?"
+    },
+    {
+      "pt":"Que ideias apareceram / surgiram?",
+      "en":"What ideas came up?"
+    },
+    {
+      "pt":"Eles não gostaram da ideia de hierarqia.",
+      "en":"They didn't like the idea of hiearchy."
+    },
+    {
+      "pt":"Qual foi a tua resposta?",
+      "en":"What was your answer / response?"
+    },
+    {
+      "pt":"Uma coisa que tem muito impacto e muita incerteza.",
+      "en":"A thing that has high impact and high uncertainty"
+    },
+    {
+      "pt":"Os materiais eram fáceis.",
+      "en":"The materials we very easy"
+    },
+    {
+      "pt":"Quem aprendeu alguma coisa nova?",
+      "en":"Who learned something new?"
+    },
+    {
+      "pt":"Foi um pouco constrangedor.",
+      "en":"It was a bit awkward"
+    },
+    {
+      "pt":"Quando vais saber a resposta?",
+      "en":"When will you know the answer?"
+    },
+    {
+      "pt":"O produto precisa de ser muito novo e ambicioso.",
+      "en":"The product needs to be very new and ambitious"
     }
   ]
 }
