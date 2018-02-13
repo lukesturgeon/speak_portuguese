@@ -1,10 +1,6 @@
 {
   "words" : [
     {
-      "pt":"Na noite passada eu queria dormir, mas a Sara tinha muita energia.",
-      "en":"Last night I wanted to sleep, but Sara had lots of energy."
-    },
-    {
       "pt":"Preciso de comprar canetas e post-its.",
       "en":"I need to buy pens and post-its."
     },
@@ -41,7 +37,7 @@
       "en":"What ideas came up?"
     },
     {
-      "pt":"Eles não gostaram da ideia de hierarqia.",
+      "pt":"Eles não gostaram da ideia de hierarquia.",
       "en":"They didn't like the idea of hiearchy."
     },
     {
@@ -77,7 +73,7 @@
       "en":"I am with fever after a week of drinking"
     },
     {
-      "pt":"Tenho muita tosse, porque tenho allergias",
+      "pt":"Tenho uma tosse, porque tenho alergias",
       "en":"I have a cough, because I have allergies"
     },
     {
@@ -85,8 +81,8 @@
       "en":"I was with a cold, in the past week"
     },
     {
-      "pt":"Dói-me os olhos depois de olhar para o ecrã",
-      "en":"My head hurts because of watching the screen"
+      "pt":"Doem-me os olhos depois de olhar para o ecrã",
+      "en":"My eyes hurts because of watching the screen"
     },
     {
       "pt":"Sentes-te bem?",
@@ -117,7 +113,7 @@
       "en":"My friend will visit us. He will be in London for five days."
     },
     {
-      "pt":"Ele é australiano, mas mora na Dinamarca e ele tem uma mulher dinamarquesa.",
+      "pt":"Ele é australiano, mas mora na Dinamarca e tem uma mulher dinamarquesa.",
       "en":"He is Australian but he lives in Denmark and he has a Danish wife."
     },
     {
@@ -137,8 +133,8 @@
       "en":"After our lesson, I will go to the station to meet my friend."
     },
     {
-      "pt":"La dizer&hellip;",
-      "en":"I was going to say&hellip;"
+      "pt":"Ia dizer…",
+      "en":"I was going to say…"
     },
     {
       "pt":"Preciso de ligar o aquecimento antes de a Sara voltar para casa.",
@@ -155,6 +151,86 @@
     {
       "pt":"Estávamos muito cansados por causa das muitas viagens.",
       "en":"We were very tired because of the many trips."
+    },
+    {
+      "pt":"A tua mudança correu bem?",
+      "en":"Your moving went well?"
+    },
+    {
+      "pt":"Ouvi falar dele",
+      "en":"I've heard of it"
+    },
+    {
+      "pt":"Acho que vai ajudar.",
+      "en":"I think it's going to help"
+    },
+    {
+      "pt":"A primeira vez em muito tempo",
+      "en":"The first time in a long time"
+    },
+    {
+      "pt":"Ontem à noite tive um encontro com duas pessoas e fomos a um restaurante vietnamita. E a comida foi muito boa.",
+      "en":"Last night I had a meeting with two people and we went to a Vietnamese restaurant. And the food was very good."
+    },
+    {
+      "pt":"Quinta à noite tenho um encontro com muitas pessoas, alumni de Copenhaga, mas em Londres.",
+      "em":"Thursday at night I have a meeting with many people, alumni from Copenhagen, but in London."
+    },
+    {
+      "pt":"Quero saber se é possível trabalharmos juntos.",
+      "en":"I want to know if it’s possible for us to work together."
+    },
+    {
+      "pt":"Quero saber que tipo de trabalho ele faz.",
+      "en":"I want to know what kind/type of work he does."
+    },
+    {
+      "pt":"Apresentações",
+      "en":"Introductions (between people)"
+    },
+    {
+      "pt":"Ontem tive três reuniões.",
+      "en":"Yesterday I had three meetings"
+    },
+    {
+      "pt":"Normalmente vou três vezes todas as semanas",
+      "en":"Normally I go (there) three times every week."
+    },
+    {
+      "pt":"Gosto de sair de casa e ir ao ginásio.",
+      "en":"I like to leave the house and go to the gym"
+    },
+    {
+      "pt":"Como foi a outra reunião?",
+      "en":"How was the other meeting?"
+    },
+    {
+      "pt":"Agora está 90% (noventa por cento) confirmado.",
+      "en":"Now it’s 90% confirmed."
+    },
+    {
+      "pt":"Que alívio!",
+      "en":"What a relief!"
+    },
+    {
+      "pt":"Ontem, ele mandou-me um email, às quatro horas. E falámos hoje.",
+      "en":"Yesterday he sent me an email at 4 o’clock. And we spoke today."
+    },
+    {
+      "pt":"Mandei uma proposta há duas semanas.",
+      "en":"I sent a proposal two weeks ago."
+    },
+    {
+      "pt":"Não consigo lembrar-me.",
+      "en":"I can’t remember."
+    },
+    {
+      "pt":"Estou à espera de uma encomenda.",
+      "en":"I’m expecting a parcel."
+    },
+    {
+      "pt":"Esperar",
+      "en":"To wait / to expect"
     }
   ]
 }
