@@ -299,6 +299,38 @@
     {
       "pt":"Estou à espera de notícias de um cliente.",
       "en":"I'm waiting to hear from a client"
+    },
+    {
+      "pt":"Está a nevar.",
+      "en":"It’s snowing."
+    },
+    {
+      "pt":"Juntei as palavras da última semana (ao website).",
+      "en":"I added the sentances from last week (to the website)."
+    },
+    {
+      "pt":"É bom para praticar sozinho.",
+      "en":"It is good for practising alone."
+    },
+    {
+      "pt":"Joguei golfe uma vez.",
+      "en":"I played golf once."
+    },
+    {
+      "pt":"Acho que o golfe é lento como o críquete.",
+      "en":"I think that golf is slow like cricket."
+    },
+    {
+      "pt":"Vou enviar-te alguns exercícios para praticares.",
+      "en":"I’m going to send you some exercises for you to practice."
+    },
+    {
+      "pt":"São todos muito diferentes.",
+      "en":"They are all very different."
+    },
+    {
+      "pt":"Tenho folga às sextas.",
+      "en":"I have Fridays off."
     }
   ]
 }
