@@ -1,108 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" manifest="speak_portuguese.manifest">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A way to practise portuguese sentances">
-    <meta name="keywords" content="portuguese, english">
-    <meta name="author" content="Luke Sturgeon">
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-
-    <title>Speaking Portuguese</title>
-
-    <!-- <link rel="apple-touch-icon-precomposed" href="xx">
-  	<link rel="apple-touch-icon" href="xx">
-    <link rel="icon" type="image/x-icon" href="xx"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <title>Speak Portuguese (VueJs)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
   </head>
   <body>
 
-    <div class="container">
-
-      <div class="words">
-        <p><span id="wordId">0</span> / <span id="wordCount">0</span></p>
-        <h2 id="pt">Vamos começar</h2>
-        <h2 id="en">Let's get started</h2>
-      </div>
-
-      <div class="controls">
-        <button id="prevBtn">&larr;</button>
-        <button id="reloadBtn">Outro</button>
-        <button id="nextBtn">&rarr;</button>
-      </div>
-
+    <div id="vue-app">
+      <button v-on:click="prev">Previous</button>
+      <button v-on:click="next">Next</button>
+      <button v-on:click="random">Random</button>
+      <button v-on:click="help = !help">Help</button>
+      <h1>Sentances</h1>
+      <p>Sentance {{ count }} of {{ total }}</p>
+      <p>{{ sentance }}</p>
     </div>
 
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script>
-  $( document ).ready(function() {
-
-    $("#en").hide();
-
-    var words;
-    var activeWordId = -1;
-    var jqxhr;
-
-    $.fn.randomWord = function(){
-      activeWordId = Math.floor(Math.random()*words.length);
-      $(this).showWord(activeWordId);
-    }
-
-    $.fn.nextWord = function(){
-      activeWordId = (activeWordId++ >= words.length-1) ? 0 : activeWordId;
-      $(this).showWord(activeWordId);
-    }
-
-    $.fn.prevWord = function(){
-      activeWordId = (activeWordId-- <= 0) ? words.length-1 : activeWordId;
-      $(this).showWord(activeWordId);
-    }
-
-    $.fn.showWord = function(n){
-      activeWordId = n;
-      $("#pt").text(words[n].pt);
-      $("#en").text(words[n].en);
-      $("#wordId").text(n+1);
-      $("#pt").show();
-      $("#en").hide();
-
-    }
-
-    // start by loading the JSON
-    jqxhr = $.ajax( "words.json" ).done(function(data) {
-      words = data.words;
-      $("#wordCount").text(words.length);
-
-      $("#reloadBtn").click(function(){
-        $(this).randomWord();
-      });
-
-      $("#nextBtn").click(function(){
-        $(this).nextWord();
-      });
-
-      $("#prevBtn").click(function(){
-        $(this).prevWord();
-      });
-
-      $("#pt").click(function(){
-        $("#pt").hide();
-        $("#en").show();
-      });
-
-      $("#en").click(function(){
-        $("#en").hide();
-        $("#pt").show();
-      });
-    });
-  });
-</script>
+    <script src="app.js"></script>
   </body>
 </html>
