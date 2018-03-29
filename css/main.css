@@ -1,31 +1,8 @@
-html, body {
-  height: 100%;
+body {
   text-align: center;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.top {
-  order: 1;
-  flex-shrink: 0;
-  flex-basis: 100px;
-}
-
-.middle {
-  order: 2;
-  flex: auto;
-  overflow-y: scroll;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bottom {
-  order: 3;
-  flex-shrink: 0;
-  flex-basis: 100px;
+.controls {
+  position: fixed;
+  bottom: 30px;
 }

@@ -23,17 +23,16 @@
 
     <div class="container">
 
-      <div class="top">
-        <p>Aprendendo <span id="wordcount">0</span> frases.</p>
-      </div>
-
-      <div class="middle">
+      <div class="words">
+        <p><span id="wordId">0</span> / <span id="wordCount">0</span></p>
         <h2 id="pt">Vamos começar</h2>
         <h2 id="en">Let's get started</h2>
       </div>
 
-      <div class="bottom">
-        <p><button id="reloadbtn">Outro&hellip;</button></p>
+      <div class="controls">
+        <button id="prevBtn">&larr;</button>
+        <button id="reloadBtn">Outro</button>
+        <button id="nextBtn">&rarr;</button>
       </div>
 
     </div>
@@ -47,18 +46,50 @@
 
     $("#en").hide();
 
-    var wordCount;
-    var jqxhr = $.ajax( "words.json" )
-    .done(function(data) {
-      wordCount = data.words.length;
-      $("#wordcount").text(wordCount);
+    var words;
+    var activeWordId = -1;
+    var jqxhr;
 
-      $("#reloadbtn").click(function(){
-        var n = Math.floor(Math.random()*wordCount);
-        $("#pt").text(data.words[n].pt);
-        $("#en").text(data.words[n].en);
-        $("#en").hide();
-        $("#pt").show();
+    $.fn.randomWord = function(){
+      activeWordId = Math.floor(Math.random()*words.length);
+      $(this).showWord(activeWordId);
+    }
+
+    $.fn.nextWord = function(){
+      activeWordId = (activeWordId++ >= words.length-1) ? 0 : activeWordId;
+      $(this).showWord(activeWordId);
+    }
+
+    $.fn.prevWord = function(){
+      activeWordId = (activeWordId-- <= 0) ? words.length-1 : activeWordId;
+      $(this).showWord(activeWordId);
+    }
+
+    $.fn.showWord = function(n){
+      activeWordId = n;
+      $("#pt").text(words[n].pt);
+      $("#en").text(words[n].en);
+      $("#wordId").text(n+1);
+      $("#pt").show();
+      $("#en").hide();
+
+    }
+
+    // start by loading the JSON
+    jqxhr = $.ajax( "words.json" ).done(function(data) {
+      words = data.words;
+      $("#wordCount").text(words.length);
+
+      $("#reloadBtn").click(function(){
+        $(this).randomWord();
+      });
+
+      $("#nextBtn").click(function(){
+        $(this).nextWord();
+      });
+
+      $("#prevBtn").click(function(){
+        $(this).prevWord();
       });
 
       $("#pt").click(function(){

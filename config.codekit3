@@ -7,7 +7,7 @@
 		"uuidString": "ECF9BC82-C470-4CF2-9BC8-E1CD150CBEB0"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26330",
 "files": {
 	"\/css\/main-min.css": {
 		"aP": 1,
@@ -43,6 +43,13 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
+	"\/speak_portuguese.manifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/speak_portuguese.manifest",
+		"oF": 0
+		},
 	"\/words.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -68,6 +75,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
